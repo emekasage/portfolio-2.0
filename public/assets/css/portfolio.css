@@ -146,12 +146,12 @@ body:not(.mobile) .project_item:hover .hover-image {
     }
 
     .service-icon svg, .project-icon svg {
-        width: 60px !important;
-        height: 60px !important;
+        width: 50px !important;
+        height: 50px !important;
     }
 
     .service-title, .project-title {
-        font-size: 2.25rem !important;
+        font-size: 2.1rem !important;
     }
 
     .project_item .hover-image {
@@ -162,8 +162,20 @@ body:not(.mobile) .project_item:hover .hover-image {
         display: block !important;
     }
 
+    .big-circle {
+        max-width: 16rem !important;
+        padding: 3rem 1rem !important;
+        margin: 2rem auto !important;
+    }
+
     .small-circle {
-        padding: 7rem 3rem !important;
+        max-width: 12rem !important;
+        padding: 3rem 1rem !important;
+    }
+
+    .small-circle svg {
+        width: 45px;
+        height: 45px;
     }
 
     .footer-links {
@@ -176,5 +188,11 @@ body:not(.mobile) .project_item:hover .hover-image {
 
     .footer-link {
         margin-right: 0px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .h1-hero {
+        font-size: 6rem !important;
     }
 }
