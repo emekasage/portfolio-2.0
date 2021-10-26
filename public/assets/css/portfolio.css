@@ -189,6 +189,10 @@ body:not(.mobile) .project_item:hover .hover-image {
     .footer-link {
         margin-right: 0px !important;
     }
+
+    .twine-link {
+        margin-left: 15px !important;
+    }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {

@@ -1,2 +1,2 @@
 ### - The portfolio site of Emeka Ikele
-### - Versionn 2.0
+### - Version 2.0

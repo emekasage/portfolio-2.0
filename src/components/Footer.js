@@ -36,6 +36,12 @@ export default function Footer() {
             >
               Email
             </a>
+            <a
+              href="https://www.twine.net/emekasage"
+              className="twine-link footer-link mr-5 hover:text-red-500"
+            >
+              Twine
+            </a>
           </nav>
         </div>
       </div>
