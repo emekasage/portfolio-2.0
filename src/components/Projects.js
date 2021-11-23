@@ -10,17 +10,17 @@ export default function Projects() {
           </h5>
           <div className="projects__list bg-transparent flex flex-col items-center divide-y divide-gray-800">
             <a
-              className="project_item pointer-events-auto w-full flex flex-col justify-center items-center"
-              href="https://esoftresponse.com/"
+              className="project_item w-full flex flex-col justify-center items-center"
+              href="https://freedup.co.uk/"
             >
               <div className="hover-image">
                 <img
-                  src="../../assets/img/Landing_eSoft.png"
-                  alt="esoft_landing_page"
+                  src="../../assets/img/Landing_FreedUp.png"
+                  alt="freedup_landing_page"
                 />
               </div>
               <div className="flex justify-between items-center w-full py-3 cursor-pointer">
-                <h2 className="project-title text-7xl">eSoft Response</h2>
+                <h2 className="project-title text-7xl">FreedUp</h2>
                 <div className="project-icon">
                   <svg
                     width="97"
@@ -38,17 +38,17 @@ export default function Projects() {
               </div>
             </a>
             <a
-              className="project_item w-full flex flex-col justify-center items-center"
-              href="https://freedup.co.uk/"
+              className="project_item pointer-events-auto w-full flex flex-col justify-center items-center"
+              href="https://soupe-test.vercel.app/"
             >
               <div className="hover-image">
                 <img
-                  src="../../assets/img/Landing_FreedUp.png"
-                  alt="freedup_landing_page"
+                  src="../../assets/img/Landing_Soupe.png"
+                  alt="esoft_landing_page"
                 />
               </div>
               <div className="flex justify-between items-center w-full py-3 cursor-pointer">
-                <h2 className="project-title text-7xl">FreedUp</h2>
+                <h2 className="project-title text-7xl">Soupe</h2>
                 <div className="project-icon">
                   <svg
                     width="97"
