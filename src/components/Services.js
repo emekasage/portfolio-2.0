@@ -44,11 +44,11 @@ export default function Services() {
                 }`}
               >
                 <p className="p-list text-xl w-11/12 ml-auto">
-                  Quickly and iteratively creating user flows, wireframes,
-                  prototypes, low and high fidelity mockups using tools such as
-                  Figma &amp; Canva to identify and solve user problems and
-                  create intuitive, aesthetically-pleasing, interactive
-                  interfaces.
+                  I&apos;m a self-taught UI/UX designer with experience in
+                  creating wireframes, prototypes, low and high fidelity mockups
+                  using tools such as Figma &amp; Canva to identify and solve
+                  user problems while delivering aesthetically-pleasing,
+                  end-to-end software products.
                 </p>
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function Services() {
                     />
                   </svg>
                 </div>
-                <h2 className="service-title text-7xl">Web Design</h2>
+                <h2 className="service-title text-7xl">Frontend</h2>
               </div>
               <div
                 className={`service1 ${
@@ -83,10 +83,11 @@ export default function Services() {
                 }`}
               >
                 <p className="p-list text-xl w-11/12 ml-auto">
-                  Exceptional websites and digital products are a fine blend of
-                  the right story and technology behind it. I take on a design
-                  thinking approach that focuses on usability and impact. No
-                  shortcuts, dark patterns.
+                  I am proficient in HTML, CSS and JavaScript as well as their
+                  corresponding frameworks such as Bootstrap and Tailwind for
+                  CSS; ReactJS, NextJS and React Native for JavaScript which I
+                  use to create functioncal web interfaces. I also employ
+                  version control tools like Git to manage workflows.
                 </p>
               </div>
             </div>
@@ -113,7 +114,7 @@ export default function Services() {
                     />
                   </svg>
                 </div>
-                <h2 className="service-title text-7xl">CMS Development</h2>
+                <h2 className="service-title text-7xl">No Code</h2>
               </div>
               <div
                 className={`service1 ${
@@ -121,10 +122,9 @@ export default function Services() {
                 }`}
               >
                 <p className="p-list text-xl w-11/12 ml-auto">
-                  Creating, managing and editing websites are not necessarily
-                  code-driven. Using tools such as WordPress, Wix, Drupal, I
-                  provide 100% customizable and scalable sites allowing for very
-                  precise SEO.
+                  Using no code/low code platforms such as WordPress, Wix, and
+                  most recently Bubble, I&apos;m able to provide 100%
+                  customizable and scalable sites allowing for very precise SEO.
                 </p>
               </div>
             </div>

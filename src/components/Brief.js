@@ -14,20 +14,29 @@ export default function Brief() {
       </div>
       <div className="sub__brief w-full max-w-2xl mx-auto">
         <p className="sub_text text-gray-200 text-lg">
-          Through the combination of design, technology and programming, I
-          develop and maintain the user interface, making it responsive for
-          mobile devices, create tools that improve site interaction regardless
-          of the browser, manage software workflow, follow SEO best practices,
-          fix bugs and test for usability thereby optimizing the user
-          experience.
+          A frontend developer with 4 plus years of experience with proven
+          experience in collaborating with creative and development teams on the
+          execution of ideas and projects. I&apos;m passionate about crisp and
+          clear UIs, animations and creating intuitive, dynamic user experiences
+          while ensuring maximum accessibility, user-friendliness, and
+          usability.
         </p>
         <p className="sub_text2 text-gray-200 text-lg mt-6">
+          Enthusiatic individual, self-motivated, problem-solver who is very
+          detail-oriented. Fan of football, lover of music, movies and gaming on
+          consoles.
+        </p>
+        <p className="sub_text2 text-gray-200 text-lg mt-6">
+          Interested in the entire frontend spectrum and working on ambitious
+          projects with posistive people.
+        </p>
+        {/* <p className="sub_text2 text-gray-200 text-lg mt-6">
           I am proficient in using HTML, JavaScript, CSS as well as their
           corresponding frameworks such as Bootstrap and Tailwind for CSS and
           ReactJS for JavaScript. I also employ version control tools like Git
           and Content Management softwares such as WordPress and Wix to achieve
           the perfect UI for the project.
-        </p>
+        </p> */}
 
         <a href="https://calendly.com/emeka-ikele/discovery-meeting">
           <button

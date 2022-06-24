@@ -1,6 +1,8 @@
 import React from "react";
 
 export default function Footer() {
+  const today = new Date();
+  const date = today.getFullYear();
   return (
     <div className={"bg-gray-200 top-0 z-10"}>
       <div className="footer-links container mx-auto flex flex-wrap py-5 px-16 flex-col md:flex-row items-center justify-between">
@@ -10,7 +12,7 @@ export default function Footer() {
             className="ml-3 text-lg font-semibold"
             id="footer-name"
           >
-            © 2021 Emeka Ikele
+            © {date} Emeka Ikele
           </a>
         </div>
         <div className="footer_lnk">

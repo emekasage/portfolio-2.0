@@ -4,11 +4,27 @@ export default function About() {
   return (
     <section className="bg-gray-200 pb-40" id="about">
       <div className="hero_up container mx-auto flex px-10 py-10 flex-col items-center">
-        <h1 className="h1-hero text-9xl font-light px-20 antialiased">
-          Frontend Developer <br /> collaborating with <br />
-          creative &amp; development <br /> teams on the execution <br /> of
-          <span className="text-red-500 font-medium"> ideas</span> &amp;
-          <span className="text-red-500 font-medium"> projects.</span>
+        <h1 className="h1-hero text-9xl font-light px-0 md:px-20 antialiased">
+          Hi, <br /> I&apos;m <span className="text-red-500">Emeka</span> <br />
+          <a className="font-extrabold buttonD hover:text-green-500">w</a>
+          <a className="font-extrabold buttonD hover:text-green-500">e</a>
+          <a className="font-extrabold buttonD hover:text-green-500">b</a>
+          &nbsp;
+          <a className="font-extrabold buttonD hover:text-green-500">d</a>
+          <a className="font-extrabold buttonD hover:text-green-500">e</a>
+          <a className="font-extrabold buttonD hover:text-green-500">v</a>
+          <a className="font-extrabold buttonD hover:text-green-500">e</a>
+          <a className="font-extrabold buttonD hover:text-green-500">l</a>
+          <a className="font-extrabold buttonD hover:text-green-500">o</a>
+          <a className="font-extrabold buttonD hover:text-green-500">p</a>
+          <a className="font-extrabold buttonD hover:text-green-500">e</a>
+          <a className="font-extrabold buttonD hover:text-green-500">r</a>
+          {/* creative &amp; development <br /> teams on the execution <br /> of */}
+          {/* <span className="text-red-500 font-medium"> ideas</span> &amp;
+          <span className="text-red-500 font-medium"> projects.</span> */}
+          <p className="text-4xl text-gray-600 font-normal leading-relaxed antialiased px-0 lg:px-4 subText">
+            Frontend Developer / WordPress Pro
+          </p>
         </h1>
       </div>
 
