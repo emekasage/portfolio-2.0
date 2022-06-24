@@ -3,7 +3,7 @@ import { ArrowCircleRightIcon } from "@heroicons/react/outline";
 
 export default function Brief() {
   return (
-    <section className="bg-gray-800 py-36" id="skills">
+    <section className="bg-gray-800 py-20 md:py-36" id="skills">
       <div className="hero_up container mx-auto flex px-10 py-10 flex-col items-center">
         <h1 className="h1-hero text-9xl text-gray-200 font-light px-20 antialiased">
           A well designed <br /> UI increases user <br />

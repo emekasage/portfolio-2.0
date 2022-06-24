@@ -3,7 +3,7 @@ import { LightningBoltIcon } from "@heroicons/react/solid";
 
 export default function Contact() {
   return (
-    <section className="bg-gray-200 py-36">
+    <section className="bg-gray-200 py-20 md:py-36">
       <div className="hero_up container mx-auto flex px-10 py-10 flex-col items-center">
         <h1 className="h1-hero text-8xl font-light px-20 antialiased">
           You got a cool project on mind? Let’s collaborate and create a
