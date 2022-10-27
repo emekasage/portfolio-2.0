@@ -6,7 +6,7 @@ export default function Services() {
   const [showServiceInfo3, setShowServiceInfo3] = useState(false);
 
   return (
-    <section className="bg-red-500 py-36" id="services">
+    <section className="bg-red-500 py-20 md:py-36" id="services">
       <div className="container mx-auto flex px-10 py-10 items-center">
         <div className="max-w-5xl w-full mr-0 ml-auto float-right">
           <h5 className="list__label text-right text-xl font-semibold pb-2 border-b border-gray-800">

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <section className="bg-gray-100 py-36" id="projects">
+    <section className="bg-gray-100 py-20 md:py-36" id="projects">
       <div className="container mx-auto flex px-10 py-10 items-center">
         <div className="max-w-5xl w-full mr-auto ml-0 float-left">
           <h5 className="list__label text-left text-xl font-semibold pb-2 border-b border-gray-800">
