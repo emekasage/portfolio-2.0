@@ -149,18 +149,18 @@ export default function Projects() {
                 </div>
               </div>
             </a>
-            {/* <a
+            <a
               className="project_item w-full flex flex-col justify-center items-center"
-              href="https://nochore.ecomresponse.com/"
+              href="https://regenate.net/"
             >
               <div className="hover-image">
                 <img
-                  src="../../assets/img/Landing_noChore.png"
-                  alt="nochore_landing_page"
+                  src="../../assets/img/Landing_Regenate.png"
+                  alt="regenate_landing_page"
                 />
               </div>
               <div className="flex justify-between items-center w-full py-3 cursor-pointer">
-                <h2 className="project-title text-7xl">No Chore</h2>
+                <h2 className="project-title text-7xl">Regenate</h2>
                 <div className="project-icon">
                   <svg
                     width="97"
@@ -176,7 +176,7 @@ export default function Projects() {
                   </svg>
                 </div>
               </div>
-            </a> */}
+            </a>
           </div>
         </div>
       </div>
