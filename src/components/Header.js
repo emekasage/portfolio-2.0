@@ -1,8 +1,9 @@
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import React, { useState } from "react";
-import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 
-export default function Header() {
+function Header() {
   const [navbar, setNavbar] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
   const changeHeaderBackground = () => {
     if (window.scrollY >= 80) {
@@ -17,38 +18,64 @@ export default function Header() {
     <header
       className={
         navbar
-          ? "bg-gray-200 lg:sticky top-0 z-10 active"
-          : "bg-gray-200 lg:sticky top-0 z-10"
+          ? "sticky top-0 z-50 active overflow-hidden"
+          : "bg-black lg:sticky top-0 z-10 overflow-hidden"
       }
     >
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-lg font-semibold" id="my-name">
-            emeka.
+      <div className="container mx-auto py-5 px-8 md:px-16 flex justify-between items-center">
+        <div>
+          <h2 className="font-bold text-white text-lg">emeka ikele</h2>
+        </div>
+        <div className="hidden md:flex flex-wrap flex-row items-center text-white text-base font-medium space-x-8">
+          <a href="#skills" rel="noreferrer">
+            Skills &amp; Experience
           </a>
-        </a>
-        <nav
-          className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center"
-          id="nav_links"
-        >
-          <a href="#skills" className="mr-5 hover:text-white">
-            Skills
+          <a href="#projects" rel="noreferrer">
+            Work
           </a>
-          <a href="#services" className="mr-5 hover:text-white">
-            Services
+          <a href="#about" rel="noreferrer">
+            About Me
           </a>
-          <a href="#projects" className="mr-5 hover:text-white">
-            Projects
+          <a href="#contact" rel="noreferrer">
+            Contact
           </a>
-        </nav>
-        <a
-          href="https://calendly.com/emeka-ikele/discovery-meeting"
-          className="inline-flex items-center uppercase underline border-0 py-1 px-3 focus:outline-none font-semibold rounded text-base mt-4 md:mt-0"
-        >
-          Book a free consultation
-          <ArrowNarrowRightIcon className="w-4 h-4 ml-1" />
-        </a>
+        </div>
+        {/* Mobile Menu */}
+        <div className="block md:hidden">
+          <MenuIcon
+            className="h-6 w-6 text-white"
+            onClick={() => setShowMenu(!showMenu)}
+          />
+        </div>
+        {showMenu && (
+          <>
+            <div className="fixed w-screen bg-black bg-opacity-60 z-50 top-0 left-0 flex justify-end">
+              <div className="w-3/5 h-screen bg-black ml-0 flex flex-col space-y-3 justify-center p-8">
+                <XIcon
+                  className="h-8 w-8 text-white cursor-pointer"
+                  onClick={() => setShowMenu(false)}
+                />
+                <div className="text-white text-base opacity-60 font-medium space-y-4 flex flex-col">
+                  <a href="#skills" rel="noreferrer">
+                    Skills &amp; Experience
+                  </a>
+                  <a href="#projects" rel="noreferrer">
+                    Work
+                  </a>
+                  <a href="#about" rel="noreferrer">
+                    About Me
+                  </a>
+                  <a href="#contact" rel="noreferrer">
+                    Contact
+                  </a>
+                </div>
+              </div>
+            </div>
+          </>
+        )}
       </div>
     </header>
   );
 }
+
+export default Header;
