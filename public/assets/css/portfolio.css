@@ -1,7 +1,10 @@
-/* html,body{
-    overflow-x: hidden;
-} */
+body {
+  font-family: "Space Grotesk", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+/* 
 .h1-hero {
   font-family: "Poppins", sans-serif;
 }
@@ -52,10 +55,10 @@ a.buttonD:hover {
 .rubberBand {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
-}
+} */
 
 /**** HEADER-STYLES *****/
-.active {
+/* .active {
   background: #111827 !important;
 }
 
@@ -72,10 +75,10 @@ a#my-name,
 nav#nav_links {
   font-family: "Nunito", sans-serif;
   color: #111827;
-}
+} */
 
 /****** BODY STYLES ******/
-
+/* 
 .round__btn,
 .big-circle,
 .small-circle {
@@ -111,7 +114,7 @@ nav#nav_links {
 
 /******** SERVICE PAGE ********/
 
-.hide h2 {
+/* .hide h2 {
   font-weight: 700 !important;
   transition-timing-function: ease-in-out;
   transition-duration: 0.2s;
@@ -130,10 +133,10 @@ nav#nav_links {
 .show .service-icon {
   transition-timing-function: ease-in-out;
   transition-duration: 0.5s;
-}
+} */
 
 /******** PROJECT PAGE ********/
-.project_item:hover .project-icon {
+/* .project_item:hover .project-icon {
   transform: rotate(45deg);
   transition-timing-function: ease-in-out;
   transition-duration: 0.5s;
@@ -162,7 +165,7 @@ body:not(.mobile) .project_item:hover .hover-image {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* Change width and height to scale images */
+  /* Change width and height to scale images 
   width: 50vw;
   height: 50vh;
 }
@@ -174,10 +177,10 @@ body:not(.mobile) .project_item:hover .hover-image {
   height: auto !important;
   margin-bottom: 0;
   opacity: 0.7;
-}
+} */
 
 /******* MOBILE RESPONSIVESNESS ********/
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   html,
   body {
     overflow-x: hidden;
@@ -265,4 +268,4 @@ body:not(.mobile) .project_item:hover .hover-image {
   .h1-hero {
     font-size: 4.2rem !important;
   }
-}
+} */
