@@ -355,12 +355,14 @@ body:not(.mobile) .project_item:hover .hover-image {
   }
 }
 @media screen and (max-width: 768px) {
-  .experience {
-    width: 100% !important;
-  }
   .skillHeading {
     font-size: 30px !important;
     width: 12rem !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .experienceBlock {
+    width: 45% !important;
   }
 }
 

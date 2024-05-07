@@ -16,25 +16,22 @@ function Skills() {
         >
           Skills &amp; Experience
         </h2>
-        <div className="my-16 pb-0 md:pb-12 lg:pb-0 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-5 gap-5">
+        <div className="pb-8 md:pb-12 lg:pb-16 grid grid-cols-3 md:grid-cols-5 gap-5">
           {logoData.map((item) => (
             <div className="flex flex-col space-y-2" key={item.id}>
               <img
                 src={item.logo}
                 alt={item.alt}
-                className="w-12 h-12 lg:w-auto lg:h-14 mx-auto"
+                className="w-12 h-12 lg:w-auto lg:h-14 mx-auto transition-transform transform hover:-rotate-12"
               />
-              <p className="text-base font-medium text-center mx-auto">
+              <p className="text-base font-medium text-center mx-auto rotate-45">
                 {item.name}
               </p>
             </div>
           ))}
         </div>
       </div>
-      <div
-        className="divide-y-2 divide-black space-y-5 experience"
-        style={{ width: "45%" }}
-      >
+      <div className="divide-y-2 divide-black space-y-5 w-full experienceBlock">
         <h5 className="text-base font-medium uppercase">Experience</h5>
         <div className="flex justify-between w-full py-12">
           <div className="w-2/6">
