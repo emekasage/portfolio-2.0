@@ -267,3 +267,151 @@ body:not(.mobile) .project_item:hover .hover-image {
     font-size: 4.2rem !important;
   }
 } */
+
+/******* HEADER *******/
+.active {
+  background-color: #020202a3;
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.slide {
+  right: -100px;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 0.5s forwards;
+  animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes slide {
+  100% {
+    right: 0;
+  }
+}
+
+/***** HERO *****/
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .heroHeading {
+    font-size: 30px !important;
+  }
+}
+
+/* Animation */
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.animated {
+  animation-duration: 1.3s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1.3s;
+  -webkit-animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+  opacity: 0;
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+/***** SKILLS & EXPERIENCE *****/
+@media screen and (max-width: 1024px) {
+  .skillHeading {
+    font-size: 45px !important;
+    width: 15rem !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .experience {
+    width: 100% !important;
+  }
+  .skillHeading {
+    font-size: 30px !important;
+    width: 12rem !important;
+  }
+}
+
+/***** WORKS *****/
+.animate-spin {
+  animation-duration: 20000ms !important;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@media screen and (max-width: 1024px) {
+  .worksHeading {
+    font-size: 45px !important;
+    width: 14rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cvLink {
+    width: 180px !important;
+    height: 180px !important;
+  }
+
+  .worksHeading {
+    font-size: 30px !important;
+    width: 10rem !important;
+  }
+}
+
+/******* ABOUT *******/
+@media screen and (max-width: 1024px) {
+  .about {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about {
+    width: 100% !important;
+  }
+
+  .aboutImg {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 auto;
+  }
+}
+
+/******* CONTACT *******/
+@media screen and (max-width: 768px) {
+  .contactCircle {
+    width: 350px !important;
+    height: 350px !important;
+  }
+}

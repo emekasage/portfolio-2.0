@@ -3,12 +3,12 @@
 import React from "react";
 // import About from "./components/About";
 // import Brief from "./components/Brief";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+// import Contact from "./components/Contact";
+// import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Services from "./components/Services";
+// import Projects from "./components/Projects";
+// import Services from "./components/Services";
 import Skills from "./components/Skills";
 
 function App() {
@@ -17,10 +17,10 @@ function App() {
       <Header />
       <Hero />
       <Skills />
-      <Services />
+      {/* <Services />
       <Projects />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </main>
   );
 }
