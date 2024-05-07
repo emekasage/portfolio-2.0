@@ -271,7 +271,6 @@ body:not(.mobile) .project_item:hover .hover-image {
 /******* HEADER *******/
 .active {
   background-color: #020202a3;
-  backdrop-filter: saturate(180%) blur(20px);
 }
 
 .slide {

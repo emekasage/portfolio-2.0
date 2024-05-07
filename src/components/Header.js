@@ -1,4 +1,5 @@
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import clsx from "clsx";
 import React, { useState } from "react";
 
 function Header() {
@@ -18,8 +19,8 @@ function Header() {
     <header
       className={
         navbar
-          ? "sticky top-0 z-50 active overflow-hidden"
-          : "bg-black lg:sticky top-0 z-10 overflow-hidden"
+          ? "sticky top-0 z-10 active overflow-hidden"
+          : "bg-black sticky top-0 z-10 overflow-hidden"
       }
     >
       <div className="container mx-auto py-5 px-8 md:px-16 flex justify-between items-center">
@@ -41,37 +42,40 @@ function Header() {
           </a>
         </div>
         {/* Mobile Menu */}
-        <div className="block md:hidden">
+        <div className="block md:hidden relative">
           <MenuIcon
             className="h-6 w-6 text-white"
-            onClick={() => setShowMenu(!showMenu)}
+            onClick={() => setShowMenu(true)}
           />
         </div>
         {showMenu && (
-          <>
-            <div className="fixed w-screen bg-black bg-opacity-60 z-50 top-0 left-0 flex justify-end">
-              <div className="w-3/5 h-screen bg-black ml-0 flex flex-col space-y-3 justify-center p-8">
-                <XIcon
-                  className="h-8 w-8 text-white cursor-pointer"
-                  onClick={() => setShowMenu(false)}
-                />
-                <div className="text-white text-base opacity-60 font-medium space-y-4 flex flex-col">
-                  <a href="#skills" rel="noreferrer">
-                    Skills &amp; Experience
-                  </a>
-                  <a href="#projects" rel="noreferrer">
-                    Work
-                  </a>
-                  <a href="#about" rel="noreferrer">
-                    About Me
-                  </a>
-                  <a href="#contact" rel="noreferrer">
-                    Contact
-                  </a>
-                </div>
+          <div
+            className={clsx(
+              "fixed h-screen w-screen md:hidden bg-black backdrop-blur-sm bg-opacity-60 top-0 left-0 transition-all translate-x-full",
+              showMenu && "translate-x-0"
+            )}
+          >
+            <div className="bg-black h-full flex flex-col absolute space-y-3 right-0 top-0 py-56 px-8 gap-8 z-50">
+              <XIcon
+                className="h-8 w-8 text-white cursor-pointer"
+                onClick={() => setShowMenu(!showMenu)}
+              />
+              <div className="text-white text-base opacity-60 font-medium space-y-4 flex flex-col">
+                <a href="#skills" rel="noreferrer">
+                  Skills &amp; Experience
+                </a>
+                <a href="#projects" rel="noreferrer">
+                  Work
+                </a>
+                <a href="#about" rel="noreferrer">
+                  About Me
+                </a>
+                <a href="#contact" rel="noreferrer">
+                  Contact
+                </a>
               </div>
             </div>
-          </>
+          </div>
         )}
       </div>
     </header>
