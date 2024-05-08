@@ -10,6 +10,7 @@ import Hero from "./components/Hero";
 // import Projects from "./components/Projects";
 // import Services from "./components/Services";
 import Skills from "./components/Skills";
+import Works from "./components/Works";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <Hero />
       <Skills />
+      <Works />
       {/* <Services />
       <Projects />
       <Contact />
