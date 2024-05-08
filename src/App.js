@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import "./App.css";
 import React from "react";
-// import About from "./components/About";
+import About from "./components/About";
 // import Brief from "./components/Brief";
 // import Contact from "./components/Contact";
 // import Footer from "./components/Footer";
@@ -19,6 +19,7 @@ function App() {
       <Hero />
       <Skills />
       <Works />
+      <About />
       {/* <Services />
       <Projects />
       <Contact />
