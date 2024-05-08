@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className={"bg-gray-200 top-0 z-10"}>
       <div className="footer-links container mx-auto flex flex-wrap py-5 px-16 flex-col md:flex-row items-center justify-between">
-        <div className="title-font font-medium text-white mb-4 md:mb-0 text-gray-900">
+        <div className="title-font font-medium text-white mb-4 md:mb-0">
           <a
             href="#about"
             className="ml-3 text-lg font-semibold"
