@@ -22,7 +22,7 @@ function Skills() {
               <img
                 src={item.logo}
                 alt={item.alt}
-                className="w-12 h-12 lg:w-auto lg:h-14 mx-auto transition-transform transform hover:-rotate-12"
+                className="w-12 h-12 lg:w-14 lg:h-14 mx-auto transition-transform transform hover:-rotate-12"
               />
               <p className="text-base font-medium text-center mx-auto rotate-45">
                 {item.name}
