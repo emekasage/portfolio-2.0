@@ -273,7 +273,7 @@ body:not(.mobile) .project_item:hover .hover-image {
   background-color: #020202a3;
 }
 
-.slide {
+/* .slide {
   right: -100px;
   -webkit-animation: slide 0.5s forwards;
   -webkit-animation-delay: 2s;
@@ -291,7 +291,7 @@ body:not(.mobile) .project_item:hover .hover-image {
   100% {
     right: 0;
   }
-}
+} */
 
 /***** HERO *****/
 @media screen and (max-width: 1024px) {

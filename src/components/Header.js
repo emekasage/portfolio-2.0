@@ -51,7 +51,7 @@ function Header() {
         {showMenu && (
           <div
             className={clsx(
-              "fixed h-screen w-screen md:hidden bg-black backdrop-blur-sm bg-opacity-60 top-0 left-0 transition-all translate-x-full",
+              "fixed h-screen w-screen md:hidden bg-black backdrop-blur-sm bg-opacity-60 top-0 left-0 transition-all",
               showMenu && "translate-x-0"
             )}
           >
