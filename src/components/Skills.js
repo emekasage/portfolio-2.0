@@ -24,7 +24,7 @@ function Skills() {
                 alt={item.alt}
                 className="w-12 h-12 lg:w-auto lg:h-14 mx-auto transition-transform transform hover:-rotate-12"
               />
-              <p className="text-base font-medium text-center mx-auto rotate-45">
+              <p className="text-base font-medium text-center mx-auto">
                 {item.name}
               </p>
             </div>
