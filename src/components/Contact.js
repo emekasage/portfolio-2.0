@@ -5,7 +5,7 @@ function Contact() {
   const date = today.getFullYear();
   return (
     <div
-      className="container mx-auto py-20 px-8 md:px-16 block lg:flex justify-between bg-black overflow-hidden"
+      className="mx-auto py-20 px-8 md:px-16 block lg:flex justify-between bg-black overflow-hidden"
       id="contact"
     >
       <div className="flex flex-col">

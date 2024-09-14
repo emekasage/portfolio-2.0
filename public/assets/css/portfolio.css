@@ -393,20 +393,13 @@ body:not(.mobile) .project_item:hover .hover-image {
 
 /******* ABOUT *******/
 @media screen and (max-width: 1024px) {
-  .about {
-    width: 100% !important;
-  }
 }
 @media screen and (max-width: 768px) {
-  .about {
-    width: 100% !important;
-  }
-
-  .aboutImg {
+  /* .aboutImg {
     width: 100% !important;
     height: 100% !important;
     margin: 0 auto;
-  }
+  } */
 }
 
 /******* CONTACT *******/
