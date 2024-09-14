@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div
-      className="container mx-auto py-20 px-8 md:px-16 block lg:flex justify-between mb-10 overflow-hidden"
+      className="container mx-auto py-20 px-8 md:px-16 block lg:flex mb-10 overflow-hidden"
       id="about"
     >
       <div className="flex flex-col space-y-12 md:space-y-14 lg:space-y-20 mb-16 md:mb-0">
@@ -13,17 +13,17 @@ function About() {
         >
           About me
         </h2>
-        <div
+        <img
+          src="../../assets/img/me.jpg"
+          className="max-w-full h-auto w-full lg:w-4/5"
+          alt="Emeka"
+        />
+        {/* <div
           className="aboutImg mx-auto lg:mx-0"
-          style={{ width: "454px", height: "513px" }}
-        >
-          <img src="../../assets/img/me.jpg" alt="Me" />
-        </div>
+          // style={{ width: "454px", height: "513px" }}
+        ></div> */}
       </div>
-      <div
-        className="divide-y-2 divide-black space-y-12 about"
-        style={{ width: "60%" }}
-      >
+      <div className="divide-y-2 divide-black space-y-12">
         <h5 className="text-2xl font-medium md:mt-28 lg:mt-8">
           Developer, scholar, coder, dreamer... and the rest”
         </h5>
