@@ -35,7 +35,7 @@ function Skills() {
         <h5 className="text-base font-medium uppercase">Experience</h5>
         <div className="flex justify-between w-full py-12">
           <div className="w-2/6">
-            <h5 className="text-base font-medium">May 2023-Present</h5>
+            <h5 className="text-base font-medium">May 2023-Jun 2024</h5>
           </div>
           <div className="w-4/6 flex flex-col justify-start space-y-5">
             <h3 className="text-3xl font-medium">Frontend Engineer</h3>
@@ -44,7 +44,7 @@ function Skills() {
         </div>
         <div className="flex justify-between py-12">
           <div className="w-2/6">
-            <h5 className="text-base font-medium">Jun 2023-Present</h5>
+            <h5 className="text-base font-medium">Jun 2023-Apr 2024</h5>
           </div>
           <div className="w-4/6 flex flex-col justify-start space-y-5">
             <h3 className="text-3xl font-medium">Lead Frontend Developer</h3>
