@@ -7,12 +7,12 @@ function Portfolio() {
       <div className="overflow-hidden">
         <div className="flex justify-between my-16 md:my-6">
           <div className="flex flex-col space-y-3">
-            <h3 className="text-white text-3xl font-bold">Distinct.ai</h3>
+            <h3 className="text-white text-3xl font-bold">The PALM Magazine</h3>
             <p className="text-gray-500 opacity-75 font-normal text-2xl">
-              Web Application
+              Website
             </p>
           </div>
-          <a href="https://distinct.ai/">
+          <a href="https://www.thepalmagazine.com/">
             <img
               src="../../assets/img/work-cta.svg"
               alt=""
@@ -20,11 +20,8 @@ function Portfolio() {
             />
           </a>
         </div>
-        <a href="https://distinct.ai/">
-          <img
-            src="../../assets/img/Distinct.ai-min.png"
-            alt="Distinct placeholder"
-          />
+        <a href="https://www.thepalmagazine.com/">
+          <img src="../../assets/img/The_PALM.png" alt="ThePALM placeholder" />
         </a>
       </div>
       <div>

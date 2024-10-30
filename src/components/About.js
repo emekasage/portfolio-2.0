@@ -25,23 +25,25 @@ function About() {
       </div>
       <div className="divide-y-2 divide-black space-y-12">
         <h5 className="text-2xl font-medium md:mt-28 lg:mt-8">
-          Developer, scholar, coder, dreamer... and the rest”
+          Developer, learner, problem solver, visionary... and the rest”
         </h5>
         <p className="font-normal text-xl leading-7 py-10">
           I&#39;m a seasoned frontend developer with over five years of
           experience in collaborating with creative and development teams on the
-          execution of ideas and projects. I like to craft solid and scaleble
-          frontend products with great user experiences.
+          execution of ideas and projects. I&#39;m passionate about building
+          scalable, user-centered frontend products that enhance digital
+          experiences.
           <br /> <br /> When I&#39;m not writing code or deploying frontends,
-          I&#39;m watching football &#40;or soccer as it&#39;s called in this
-          part of the world&#41;! I think football is the greatest sport man has
-          invented.
+          you&#39;ll find me cheering on my favorite football team (Chelsea FC),
+          diving into the latest games, or catching up on new movies.
           <br />
           <br />
           My post-tech dream is to retire to a quiet little Island somewhere
-          sunny, spend my days gaming on the latest next-gen console. Also,
-          watching the latest movies. <br />
-          <br />I live in a not so little corner of the world called Toronto.
+          sunny, spend my days gaming on the latest next-gen consoles and
+          soaking up the tranquility. <br />
+          <br />
+          Creating unforgettable digital experiences—on and off the screen—is
+          what drives me.
         </p>
         <p></p>
       </div>
