@@ -86,15 +86,17 @@ function Hero() {
         style={{ fontSize: "20px" }}
       >
         <span className="text-gray-400 opacity-75">
-          I&#39;m a multidisciplinary developer based in
-        </span>{" "}
-        Toronto, Canada. <span>My specialties include</span> creating intuitive,
-        dynamic user experiences on the web using JavaScript tools{" "}
-        <span className="text-gray-400 opacity-75">such as</span> React.js,
-        Next.js <span className="text-gray-400 opacity-75">, and</span> CMS
-        tools like WordPress while ensuring maximum accessibility,
-        user-friendliness
-        <span className="text-gray-400 opacity-75">, and</span> usability.
+          I&#39;m a web developer{" "}
+        </span>
+        crafting engaging digital experiences.{" "}
+        <span className="text-gray-400 opacity-75">With expertise in</span>{" "}
+        JavaScript frameworks{" "}
+        <span className="text-gray-400 opacity-75">like</span> React{" "}
+        <span className="text-gray-400 opacity-75"> and</span> Next.js,{" "}
+        <span className="text-gray-400 opacity-75">and</span> CMS tools like
+        WordPress, I focus on intuitive, accessible,{" "}
+        <span className="text-gray-400 opacity-75">and</span> user-centered
+        designs that bring ideas to life.
         {/* <span className="text-gray-400 opacity-75">, and</span> binge-watching
         Peaky Blinders! */}
       </p>
