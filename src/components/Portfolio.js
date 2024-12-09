@@ -27,12 +27,12 @@ function Portfolio() {
       <div>
         <div className="flex justify-between my-16 md:my-6">
           <div className="flex flex-col space-y-3">
-            <h3 className="text-white text-3xl font-bold">Letbud</h3>
+            <h3 className="text-white text-3xl font-bold">Distinct AI</h3>
             <p className="text-gray-500 opacity-75 font-normal text-2xl">
               Web Application
             </p>
           </div>
-          <a href="https://letbud.com/">
+          <a href="https://distinct.ai/">
             <img
               src="../../assets/img/work-cta.svg"
               alt=""
@@ -40,8 +40,11 @@ function Portfolio() {
             />
           </a>
         </div>
-        <a href="https://letbud.com/" className="w-96 max-h-96">
-          <img src="../../assets/img/Letbud-min.png" alt="Letbud placeholder" />
+        <a href="https://distinct.ai/" className="w-96 max-h-96">
+          <img
+            src="../../assets/img/Distinct.ai-min.png"
+            alt="Distinct placeholder"
+          />
         </a>
       </div>
       <div>
@@ -90,6 +93,26 @@ function Portfolio() {
             src="../../assets/img/Vinegrove-min.png"
             alt="Vine grove academy"
           />
+        </a>
+      </div>
+      <div>
+        <div className="flex justify-between my-16 md:my-6">
+          <div className="flex flex-col space-y-3">
+            <h3 className="text-white text-3xl font-bold">Letbud</h3>
+            <p className="text-gray-500 opacity-75 font-normal text-2xl">
+              Web Application
+            </p>
+          </div>
+          <a href="https://letbud.com/">
+            <img
+              src="../../assets/img/work-cta.svg"
+              alt=""
+              className="w-12 h-12 hover:rotate-45 transition duration-300 ease-in-out"
+            />
+          </a>
+        </div>
+        <a href="https://letbud.com/" className="w-96 max-h-96">
+          <img src="../../assets/img/Letbud-min.png" alt="Letbud placeholder" />
         </a>
       </div>
       <div>
