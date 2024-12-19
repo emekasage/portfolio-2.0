@@ -7,6 +7,26 @@ function Portfolio() {
       <div className="overflow-hidden">
         <div className="flex justify-between my-16 md:my-6">
           <div className="flex flex-col space-y-3">
+            <h3 className="text-white text-3xl font-bold">SHURIII</h3>
+            <p className="text-gray-500 opacity-75 font-normal text-2xl">
+              Landing Page
+            </p>
+          </div>
+          <a href="https://storage.googleapis.com/shuriii/website/index.html">
+            <img
+              src="../../assets/img/work-cta.svg"
+              alt=""
+              className="w-12 h-12 hover:rotate-45 transition duration-300 ease-in-out"
+            />
+          </a>
+        </div>
+        <a href="https://storage.googleapis.com/shuriii/website/index.html">
+          <img src="../../assets/img/SHURIII.png" alt="SHURIII placeholder" />
+        </a>
+      </div>
+      <div className="overflow-hidden">
+        <div className="flex justify-between my-16 md:my-6">
+          <div className="flex flex-col space-y-3">
             <h3 className="text-white text-3xl font-bold">The PALM Magazine</h3>
             <p className="text-gray-500 opacity-75 font-normal text-2xl">
               Website
