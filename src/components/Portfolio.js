@@ -4,7 +4,7 @@ function Portfolio() {
   return (
     <div className="my-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 divide-y-2 divide-white">
       <div className="hidden"></div>
-      <div className="overflow-hidden">
+      {/* <div className="overflow-hidden">
         <div className="flex justify-between my-16 md:my-6">
           <div className="flex flex-col space-y-3">
             <h3 className="text-white text-3xl font-bold">SHURIII</h3>
@@ -23,7 +23,7 @@ function Portfolio() {
         <a href="https://storage.googleapis.com/shuriii/website/index.html">
           <img src="../../assets/img/SHURIII.png" alt="SHURIII placeholder" />
         </a>
-      </div>
+      </div> */}
       <div className="overflow-hidden">
         <div className="flex justify-between my-16 md:my-6">
           <div className="flex flex-col space-y-3">
@@ -44,7 +44,7 @@ function Portfolio() {
           <img src="../../assets/img/The_PALM.png" alt="ThePALM placeholder" />
         </a>
       </div>
-      <div>
+      {/* <div>
         <div className="flex justify-between my-16 md:my-6">
           <div className="flex flex-col space-y-3">
             <h3 className="text-white text-3xl font-bold">Distinct AI</h3>
@@ -66,7 +66,7 @@ function Portfolio() {
             alt="Distinct placeholder"
           />
         </a>
-      </div>
+      </div> */}
       <div>
         <div className="flex justify-between my-16 md:my-6">
           <div className="flex flex-col space-y-3">
