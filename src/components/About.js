@@ -6,7 +6,7 @@ function About() {
       className="container mx-auto py-20 px-8 md:px-16 block lg:flex mb-10 overflow-hidden"
       id="about"
     >
-      <div className="flex flex-col space-y-12 md:space-y-14 lg:space-y-20 mb-16 md:mb-0">
+      <div className="flex flex-col space-y-12 md:space-y-14 lg:space-y-20 mb-16 md:mb-0 w-full lg:w-2/5">
         <h2
           className="font-bold w-80 skillHeading"
           style={{ fontSize: "60px" }}
@@ -14,7 +14,7 @@ function About() {
           About me
         </h2>
         <img
-          src="../../assets/img/me.jpg"
+          src="../../assets/img/new_me.jpg"
           className="max-w-full h-auto w-full lg:w-4/5"
           alt="Emeka"
         />
@@ -23,7 +23,7 @@ function About() {
           // style={{ width: "454px", height: "513px" }}
         ></div> */}
       </div>
-      <div className="divide-y-2 divide-black space-y-12">
+      <div className="divide-y-2 divide-black space-y-12 w-full lg:w-3/5">
         <h5 className="text-2xl font-medium md:mt-28 lg:mt-8">
           Developer, learner, problem solver, visionary... and the rest”
         </h5>
